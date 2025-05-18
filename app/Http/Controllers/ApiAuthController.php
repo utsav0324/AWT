@@ -6,6 +6,14 @@ use Illuminate\Http\Request;
 
 class ApiAuthController extends Controller
 {
+    public function login()
+    {
+        return "test login";
+    }
+    public function logout()
+    {
+
+    }
      public function register(Request $request){
        $request->validate();
 
